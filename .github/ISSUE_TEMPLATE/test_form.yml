@@ -76,5 +76,5 @@ body:
   - type: markdown
     attributes:
       value: > 
-        **Please assign this issue to yourself or someone who will be responsible for attending to this issue.**
+        ***Please assign this issue to yourself or someone who will be responsible for attending to this issue.***
       
