@@ -50,6 +50,22 @@ body:
       attributes:
         label: If selected Other, please add the type of issue
         description: (Optional)
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Issue
+      multiple: false
+      options:
+        - Bug Fix
+        - Improvement
+        - Recurring Reporting
+        - Request
+        - Other
+  - type: input
+      id:type_other
+      attributes:
+        label: If selected Other, please add the type of issue
+        description: (Optional)
   - type: textarea
     id: description
     attributes:
