@@ -1,6 +1,5 @@
 name: Issue Form
 description: Please fill out this form to submit an issue
-type: feature
 body:
   - type: markdown
     attributes:
