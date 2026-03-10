@@ -20,8 +20,8 @@ body:
     attributes:
       label: Did this request come from or is it for someone outside of the Finance team?
       options:
-        label: Yes (External Request)
-        label: No (Internal Request)
+        - label: Yes (External Request)
+        - label: No (Internal Request)
       validations: 
         required: true
   - type: dropdown
