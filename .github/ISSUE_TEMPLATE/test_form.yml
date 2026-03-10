@@ -65,7 +65,7 @@ body:
     id: type_other
     attributes:
       label: If selected Other, please add the type of issue
-      description: *(Optional)
+      description: *(Optional)*
   - type: textarea
     id: description
     attributes:
