@@ -1,0 +1,60 @@
+---
+name: Issue Form
+description: Please fill out this form to submit an issue
+title: null
+labels: null
+assignees: null
+projects: null
+type: feature
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Thanks for taking the time to fill out this issue. Please complete the
+        form below to the best of your abilities
+  - type: input
+    id: duedate
+    attributes:
+      label: Due Date
+      description: Please enter your best estimate for when you expect/need this issue
+        to be resolved
+      placeholder: 12/31/9999
+      validation:
+        required: true
+  - type: checkboxes
+    id: internal_external
+    attributes:
+      label: Did this request come from or is it for someone outside of the Finance team?
+      options:
+        - label: Yes (External Request)
+        - label: No (Internal Request)
+      validation:
+        required: true
+  - type: dropdown
+    id: workstream
+    attributes:
+      label: Workstream
+      description: Please select which workstreams are involved in this issue
+      multiple: true
+      options:
+        - Sigma
+        - Domo
+        - Delphi
+        - Branch Claims Model
+        - Forecasting/Planning
+        - Investor Relations
+        - Regulatory
+        - Expense Forecasting
+        - Metric Reporting
+        - Regulatory
+        - Ember
+        - Agency
+        - Other, please list in the next section
+      validation:
+        required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Please add a brief description of the work that needs to be done
+      validation: required" true
