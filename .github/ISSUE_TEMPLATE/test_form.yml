@@ -22,8 +22,8 @@ body:
       options:
         - label: Yes (External Request)
         - label: No (Internal Request)
-      validations: 
-        required: true
+    validations: 
+      required: true
   - type: dropdown
     id: workstream
     attributes:
