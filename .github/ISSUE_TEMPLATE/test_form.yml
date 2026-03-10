@@ -22,7 +22,7 @@ body:
       options:
         - label: Yes (External Request)
         - label: No (Internal Request)
-    validations: 
+    validations:
       required: true
   - type: dropdown
     id: workstream
@@ -46,10 +46,10 @@ body:
     validations:
       required: true
   - type: input
-      id: workstream_other
-      attributes:
-        label: If selected Other, please add the type of issue
-        description: (Optional)
+    id: workstream_other
+    attributes:
+      label: If selected Other, please add the type of issue
+      description: (Optional)
   - type: dropdown
     id: type
     attributes:
@@ -62,10 +62,10 @@ body:
         - Request
         - Other
   - type: input
-      id: type_other
-      attributes:
-        label: If selected Other, please add the type of issue
-        description: (Optional)
+    id: type_other
+    attributes:
+      label: If selected Other, please add the type of issue
+      description: (Optional)
   - type: textarea
     id: description
     attributes:
