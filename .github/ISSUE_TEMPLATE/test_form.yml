@@ -73,8 +73,8 @@ body:
       placeholder: Please add a brief description of the work that needs to be done
     validations:
       required: true
-    - type: markdown
-      attributes:
-        value: >
-          Please assign this issue to yourself or someone who will be responsible for attending to this issue.
+  - type: markdown
+    attributes:
+      value: > 
+        Please assign this issue to yourself or someone who will be responsible for attending to this issue.
       
