@@ -62,7 +62,7 @@ body:
         - Request
         - Other
   - type: input
-      id:type_other
+      id: type_other
       attributes:
         label: If selected Other, please add the type of issue
         description: (Optional)
