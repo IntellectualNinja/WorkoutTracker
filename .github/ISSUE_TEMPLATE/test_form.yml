@@ -65,7 +65,7 @@ body:
     id: type_other
     attributes:
       label: If selected Other, please add the type of issue
-      description: (Optional)
+      description: *(Optional)*
   - type: textarea
     id: description
     attributes:
@@ -76,5 +76,5 @@ body:
   - type: markdown
     attributes:
       value: > 
-        ***Please assign this issue to yourself or someone who will be responsible for attending to this issue.***
+        **Please assign this issue to yourself or someone who will be responsible for attending to this issue.**
       
