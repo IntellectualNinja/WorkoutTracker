@@ -45,6 +45,11 @@ body:
         - Other, please list in the next section
     validations:
       required: true
+  - type: input
+      id: workstream_other
+      attributes:
+        label: If selected Other, please add the type of issue
+        description: (Optional)
   - type: textarea
     id: description
     attributes:
