@@ -75,7 +75,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |
+      value: >
         <br />
         **Please assign this issue to yourself or someone who will be responsible for attending to this issue.**
       
